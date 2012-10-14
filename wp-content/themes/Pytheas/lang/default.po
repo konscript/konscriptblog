@@ -1,0 +1,714 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: office\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-07 13:16-0800\n"
+"PO-Revision-Date: 2012-09-07 13:16-0800\n"
+"Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Unfortunately, the page you tried accessing could not be retrieved. Please visit the"
+msgstr ""
+
+#: ../404.php:16
+msgid "homepage"
+msgstr ""
+
+#: ../author.php:23
+msgid "Posts by"
+msgstr ""
+
+#: ../comments.php:13
+msgid "Leave a reply"
+msgstr ""
+
+#: ../comments.php:14
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:15
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:16
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Comment Navigation"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:19
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:20
+msgid "Submit Comment"
+msgstr ""
+
+#: ../comments.php:21
+msgid "Log In To Comment"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:34
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:34
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:34
+msgid "Comments closed"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Say something nice..."
+msgstr ""
+
+#: ../footer.php:40
+msgid "Copyright"
+msgstr ""
+
+#: ../functions.php:96
+msgid "Main"
+msgstr ""
+
+#: ../functions.php:97
+msgid "Footer"
+msgstr ""
+
+#: ../options.php:27
+msgid "Slide"
+msgstr ""
+
+#: ../options.php:28
+msgid "Fade"
+msgstr ""
+
+#: ../options.php:33
+msgid "French Toast"
+msgstr ""
+
+#: ../options.php:34
+msgid "Pancake"
+msgstr ""
+
+#: ../options.php:35
+msgid "Omelette"
+msgstr ""
+
+#: ../options.php:36
+msgid "Crepe"
+msgstr ""
+
+#: ../options.php:37
+msgid "Waffle"
+msgstr ""
+
+#: ../options.php:111
+msgid "General"
+msgstr ""
+
+#: ../options.php:115
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options.php:116
+msgid "Upload your custom logo."
+msgstr ""
+
+#: ../options.php:121
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../options.php:122
+msgid "Upload your custom site favicon."
+msgstr ""
+
+#: ../options.php:127
+msgid "Responsive?"
+msgstr ""
+
+#: ../options.php:128
+msgid "Check box to enable the responsive layout."
+msgstr ""
+
+#: ../options.php:134
+msgid "Header Search?"
+msgstr ""
+
+#: ../options.php:135
+msgid "Check box to enable the header search bar."
+msgstr ""
+
+#: ../options.php:141
+msgid "Exclude Header Image From Homepage?"
+msgstr ""
+
+#: ../options.php:142
+msgid "Check box to exclude the header image from the homepage."
+msgstr ""
+
+#: ../options.php:148
+msgid "Widgetized Footer?"
+msgstr ""
+
+#: ../options.php:149
+msgid "Check box to enable the widgetized footer area."
+msgstr ""
+
+#: ../options.php:168
+msgid "PrettyPhoto Theme"
+msgstr ""
+
+#: ../options.php:169
+msgid "Choose your PrettyPhoto theme."
+msgstr ""
+
+#: ../options.php:178
+msgid "Slider Animation"
+msgstr ""
+
+#: ../options.php:179
+msgid "Choose your slider animation."
+msgstr ""
+
+#: ../options.php:187
+msgid "SliderShow?"
+msgstr ""
+
+#: ../options.php:188
+msgid "Check box to animate slider automatically."
+msgstr ""
+
+#: ../options.php:197
+msgid "Homepage"
+msgstr ""
+
+#: ../options.php:201
+msgid "Homepage Tagline"
+msgstr ""
+
+#: ../options.php:202
+msgid "Enter your homepage tagline content. Leave blank to show nothing."
+msgstr ""
+
+#: ../options.php:204
+msgid "Homepage Tagline Sample"
+msgstr ""
+
+#: ../options.php:208
+msgid "Homepage Highlights Title"
+msgstr ""
+
+#: ../options.php:209
+msgid "Enter your homepage highlights title."
+msgstr ""
+
+#: ../options.php:211
+msgid "What We Do"
+msgstr ""
+
+#: ../options.php:216
+msgid "Show Recent Work?"
+msgstr ""
+
+#: ../options.php:217
+msgid "Check box to show recent work on the homepage."
+msgstr ""
+
+#: ../options.php:223
+msgid "Recent Work Title"
+msgstr ""
+
+#: ../options.php:224
+msgid "Enter your custom title for the recent work section"
+msgstr ""
+
+#: ../options.php:226
+msgid "Recent Work"
+msgstr ""
+
+#: ../options.php:231
+msgid "Home Many Portfolio Posts?"
+msgstr ""
+
+#: ../options.php:232
+msgid "Enter an integer for how many portfolio posts to show on the homepage."
+msgstr ""
+
+#: ../options.php:234
+#: ../options.php:257
+msgid "4"
+msgstr ""
+
+#: ../options.php:239
+msgid "Show Recent Blog Posts?"
+msgstr ""
+
+#: ../options.php:240
+msgid "Check box to show recent blog posts on the homepage."
+msgstr ""
+
+#: ../options.php:246
+msgid "Recent Blog Posts Title"
+msgstr ""
+
+#: ../options.php:247
+msgid "Enter your custom title for the recent blog posts section"
+msgstr ""
+
+#: ../options.php:249
+msgid "Recent News"
+msgstr ""
+
+#: ../options.php:254
+msgid "Home Many Blog Posts?"
+msgstr ""
+
+#: ../options.php:255
+msgid "Enter an integer for how many blog posts to show on the homepage."
+msgstr ""
+
+#: ../options.php:265
+msgid "Portfolio"
+msgstr ""
+
+#: ../options.php:269
+msgid "Portfolio Posts Per Page?"
+msgstr ""
+
+#: ../options.php:270
+msgid "Enter an integer for how posts per page to show on the portfolio page and taxonomy archives."
+msgstr ""
+
+#: ../options.php:272
+msgid "12"
+msgstr ""
+
+#: ../options.php:280
+msgid "Blog"
+msgstr ""
+
+#: ../options.php:284
+msgid "Featured Images On Single Posts?"
+msgstr ""
+
+#: ../options.php:285
+#: ../options.php:292
+#: ../options.php:299
+#: ../options.php:306
+msgid "Check box to enable featured images on single blog posts."
+msgstr ""
+
+#: ../options.php:291
+msgid "Author Bio?"
+msgstr ""
+
+#: ../options.php:298
+msgid "Tags?"
+msgstr ""
+
+#: ../options.php:305
+msgid "Related Posts?"
+msgstr ""
+
+#: ../options.php:315
+msgid "Social"
+msgstr ""
+
+#: ../options.php:320
+msgid "Social?"
+msgstr ""
+
+#: ../options.php:321
+msgid "Check box to enable the social section in the main menu."
+msgstr ""
+
+#: ../options.php:330
+msgid "Enter your "
+msgstr ""
+
+#: ../options.php:330
+msgid " url"
+msgstr ""
+
+#: ../options.php:330
+msgid "Include http:// at the front of the url."
+msgstr ""
+
+#: ../options.php:340
+msgid "CSS"
+msgstr ""
+
+#: ../options.php:344
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:345
+msgid "Use this area to add custom css to your theme's header for making small customizations"
+msgstr ""
+
+#: ../options.php:354
+msgid "About/Support"
+msgstr ""
+
+#: ../options.php:359
+msgid "Theme Credits"
+msgstr ""
+
+#: ../options.php:364
+msgid "Support? Donations?"
+msgstr ""
+
+#: ../options.php:369
+msgid "Resell"
+msgstr ""
+
+#: ../options.php:374
+msgid "Newsletter"
+msgstr ""
+
+#: ../search.php:14
+#: ../search.php:33
+msgid "Search Results For"
+msgstr ""
+
+#: ../search.php:37
+msgid "No results found for that query."
+msgstr ""
+
+#: ../single-portfolio.php:122
+msgid "Related Items"
+msgstr ""
+
+#: ../single.php:79
+msgid "Author Bio"
+msgstr ""
+
+#: ../single.php:106
+msgid "Related Articles"
+msgstr ""
+
+#: ../single.php:123
+msgid "read more"
+msgstr ""
+
+#: ../template-sitemap.php:28
+msgid "Feeds"
+msgstr ""
+
+#: ../template-sitemap.php:35
+msgid "Tags"
+msgstr ""
+
+#: ../template-sitemap.php:49
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-sitemap.php:60
+msgid "Blog Categories"
+msgstr ""
+
+#: ../template-sitemap.php:79
+msgid " Portfolio Categories"
+msgstr ""
+
+#: ../template-sitemap.php:103
+msgid "Pages"
+msgstr ""
+
+#: ../functions/better_comments.php:13
+#, php-format
+msgid "<cite class=\"author\">%s</cite>"
+msgstr ""
+
+#: ../functions/better_comments.php:21
+msgid "Reply to comment"
+msgstr ""
+
+#: ../functions/meta_class.php:131
+msgid "All"
+msgstr ""
+
+#: ../functions/meta_usage.php:17
+msgid "HP Highlights Options"
+msgstr ""
+
+#: ../functions/meta_usage.php:22
+#: ../functions/meta_usage.php:45
+msgid "URL"
+msgstr ""
+
+#: ../functions/meta_usage.php:23
+msgid "Enter a URL to link the title of this highlight to. Optional."
+msgstr ""
+
+#: ../functions/meta_usage.php:29
+msgid "Icon"
+msgstr ""
+
+#: ../functions/meta_usage.php:33
+msgid "Select your highlight icon option.<br/ > See <a href=\"http://fortawesome.github.com/Font-Awesome/\">Font Awesome</a> for previews."
+msgstr ""
+
+#: ../functions/meta_usage.php:41
+msgid "Slider Options"
+msgstr ""
+
+#: ../functions/meta_usage.php:47
+msgid "If you wish to link this slide to another page enter your full URL here."
+msgstr ""
+
+#: ../functions/meta_usage.php:51
+msgid "Caption Title"
+msgstr ""
+
+#: ../functions/meta_usage.php:53
+msgid "Enter your slide caption title here."
+msgstr ""
+
+#: ../functions/meta_usage.php:57
+msgid "Caption Description"
+msgstr ""
+
+#: ../functions/meta_usage.php:59
+msgid "Enter a caption description"
+msgstr ""
+
+#: ../functions/post_types.php:15
+msgid "Home Slides"
+msgstr ""
+
+#: ../functions/post_types.php:18
+msgid "Add New Slide"
+msgstr ""
+
+#: ../functions/post_types.php:19
+msgid "Edit Slide"
+msgstr ""
+
+#: ../functions/post_types.php:20
+msgid "New Slide"
+msgstr ""
+
+#: ../functions/post_types.php:21
+msgid "View Slide"
+msgstr ""
+
+#: ../functions/post_types.php:22
+msgid "Search Slides"
+msgstr ""
+
+#: ../functions/post_types.php:23
+msgid "No Slides found"
+msgstr ""
+
+#: ../functions/post_types.php:24
+msgid "No Slides found in Trash"
+msgstr ""
+
+#: ../functions/post_types.php:43
+msgid "Highlights"
+msgstr ""
+
+#: ../functions/post_types.php:44
+msgid "Highlight"
+msgstr ""
+
+#: ../functions/post_types.php:46
+msgid "Add New Highlight"
+msgstr ""
+
+#: ../functions/post_types.php:47
+msgid "Edit Highlight"
+msgstr ""
+
+#: ../functions/post_types.php:48
+msgid "New Highlight"
+msgstr ""
+
+#: ../functions/post_types.php:49
+msgid "View Highlight"
+msgstr ""
+
+#: ../functions/post_types.php:50
+msgid "Search Highlights"
+msgstr ""
+
+#: ../functions/post_types.php:51
+msgid "No Highlights found"
+msgstr ""
+
+#: ../functions/post_types.php:52
+msgid "No Highlights found in Trash"
+msgstr ""
+
+#: ../functions/post_types.php:77
+msgid "Add New Portfolio Post"
+msgstr ""
+
+#: ../functions/post_types.php:78
+msgid "Edit Portfolio Post"
+msgstr ""
+
+#: ../functions/post_types.php:79
+msgid "New Portfolio Post"
+msgstr ""
+
+#: ../functions/post_types.php:80
+msgid "View Portfolio Post"
+msgstr ""
+
+#: ../functions/post_types.php:81
+msgid "Search Portfolio Posts"
+msgstr ""
+
+#: ../functions/post_types.php:82
+msgid "No Portfolio Posts found"
+msgstr ""
+
+#: ../functions/post_types.php:83
+msgid "No Portfolio Posts found in Trash"
+msgstr ""
+
+#: ../functions/scripts.php:87
+msgid "Go to..."
+msgstr ""
+
+#: ../functions/taxonomies.php:14
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../functions/taxonomies.php:15
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../functions/taxonomies.php:16
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../functions/taxonomies.php:17
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../functions/taxonomies.php:18
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../functions/taxonomies.php:19
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../functions/taxonomies.php:20
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../functions/taxonomies.php:21
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../functions/taxonomies.php:22
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../functions/taxonomies.php:23
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../functions/taxonomies.php:24
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: ../functions/theme_customizer.php:38
+msgid "Logo"
+msgstr ""
+
+#: ../functions/widget_areas.php:12
+msgid "Widgets in this area are used on pages."
+msgstr ""
+
+#: ../functions/widget_areas.php:21
+msgid "Blog/Archives"
+msgstr ""
+
+#: ../functions/widget_areas.php:23
+msgid "Widgets in this area are used on the main sidebar region."
+msgstr ""
+
+#: ../functions/widget_areas.php:34
+msgid "Widgets in this area are used on the portfolio posts."
+msgstr ""
+
+#: ../functions/widget_areas.php:45
+msgid "Footer 1"
+msgstr ""
+
+#: ../functions/widget_areas.php:47
+msgid "Widgets in this area are used in the first footer column"
+msgstr ""
+
+#: ../functions/widget_areas.php:55
+msgid "Footer 2"
+msgstr ""
+
+#: ../functions/widget_areas.php:57
+msgid "Widgets in this area are used in the second footer column"
+msgstr ""
+
+#: ../functions/widget_areas.php:65
+msgid "Footer 3"
+msgstr ""
+
+#: ../functions/widget_areas.php:67
+msgid "Widgets in this area are used in the third footer column"
+msgstr ""
+
+#: ../functions/widget_areas.php:75
+msgid "Footer 4"
+msgstr ""
+
+#: ../functions/widget_areas.php:77
+msgid "Widgets in this area are used in the fourth footer column"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:8
+msgid "Recent Posts With Thumbnails"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:82
+msgid "Title:"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:87
+msgid "Select a post type:"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:89
+msgid "Post"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:95
+msgid "Number to Show:"
+msgstr ""
+
+#: ../functions/widget_posts_thumbs.php:99
+msgid "Offset (the number of posts to skip):"
+msgstr ""
+

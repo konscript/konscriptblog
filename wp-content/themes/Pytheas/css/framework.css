@@ -1,0 +1,161 @@
+/*
+	About: Includes all core styling for the wpex framework
+	Author: WPExplorer
+	Author URI: http://themeforest.net/user/WPExplorer/
+	Version: 1.0
+	Developed by WPExplorer
+*/
+
+
+
+/* Main
+================================================== */
+#post { float: left; width: 640px }
+#sidebar { float: right; width: 250px; padding-bottom: 25px }
+
+	
+/* Reset
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* Common Classes
+================================================== */
+
+/*class to box in content*/
+.outerbox{ width: 970px; margin: 0 auto; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
+
+/*clear floats*/
+.remove-margin { margin-right: 0 !important }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clear { clear: both }
+
+/*grids*/
+.grid-container{position: relative; margin-right: -25px; }
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6{ display: block; float: left; margin-right: 20px; margin-bottom: 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.grid-1{ width: 920px; }
+.grid-2{ width: 450px; }
+.grid-3{ width: 290px; margin-right: 25px; margin-bottom: 25px; }
+.grid-4{ width: 215px; }
+.grid-5{ width: 168px; }
+.grid-6{ width: 140px; margin-right: 16px; margin-bottom: 16px; }
+
+/*grid inside #post div*/
+#post .grid-1{ width: 220px; }
+#post .grid-2{ width: 310px; }
+#post .grid-3{ width: 200px; margin-right: 20px; margin-bottom: 20px; }
+#post .grid-4{ width: 145px; }
+#post .grid-5{ width: 112px; }
+#post .grid-6{ width: 90px; margin-right: 20px; margin-bottom: 20px; }
+
+/*classes to remove margins*/
+.no-right-margin{ margin-right: 0; }
+.no-btm-margin{ margin-bottom: 0; }
+
+/*floats*/
+.float-left{ float: left; }
+.float-right{ float: right; }
+
+
+/* Lists
+================================================== */
+ul { list-style: none outside }
+ol { list-style: decimal }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px }
+ul.square { list-style: square outside }
+ul.circle { list-style: circle outside }
+ul.disc { list-style: disc outside }
+ul ul, ul ol, ol ol, ol ul { margin: 4px 0 5px 30px }
+ul ul li, ul ol li, ol ol li, ol ul li { margin-bottom: 6px }
+
+
+/* Superfish Core
+================================================== */
+.sf-menu, .sf-menu * { margin: 0; padding: 0; list-style: none; }
+.sf-menu { line-height: 1.0 }
+.sf-menu ul { position: absolute; top: -999em; width: 180px; }
+.sf-menu ul li { width: 100% }
+.sf-menu li:hover { visibility: inherit }
+.sf-menu li { float: left; position: relative; }
+.sf-menu a { display: block; position: relative; }
+.sf-menu li:hover ul, .sf-menu li.sfHover ul { left: 0px; top: 50px; z-index: 99; }
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul { top: -999em }
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul { left: 180px; top: 1px; }
+
+
+/* FlexSlider
+================================================== */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* WordPress Styles
+================================================== */
+
+/*aligns*/
+.aligncenter { display: block; margin: 0 auto; }
+.alignright { float: right; margin: 0 0 10px 20px; }
+.alignleft { float: left; margin: 0 20px 10px 0; }
+
+/*floats*/
+.floatleft { float: left }
+.floatright { float: right }
+
+/*text style*/
+.textcenter { text-align: center }
+.textright { text-align: right }
+.textleft { text-align: left }
+
+/*captions*/
+.wp-caption { max-width: 100% !important }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; max-width: 100$; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+
+/*smiley reset*/
+.wp-smiley { margin: 0 !important; max-height: 1em; }
+
+/*blockquote*/
+blockquote.left { margin-right: 20px; text-align: right; margin-left: 0; width: 33%; float: left; }
+blockquote.right { margin-left: 20px; text-align: left; margin-right: 0; width: 33%; float: right; }
+
+/*img attachment*/
+#img-attch-page { text-align: center; overflow: hidden; }
+#img-attch-page img { display: inline-block; margin: 0 auto; max-width: 100%; margin-bottom: 20px }
+
+/*gallery shortcode*/
+.gallery-item img { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }

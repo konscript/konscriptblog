@@ -1,0 +1,102 @@
+/*----------------------------------------------------
+
+	* Responsive Framework
+	* Created by http://themeforest.net/user/WPExplorer/
+	
+/*------------------------------------------------- */
+
+
+/* Apply To All Responsive Layouts
+================================================== */
+@media only screen and (max-width: 959px) { }
+
+
+/* #Tablet (Portrait) = Design for a width of 730px
+================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	/*grid*/
+	.outerbox{ width: 730px; }
+	.grid-1{ width: 680px; }
+	.grid-2{ width: 330px; }
+	.grid-3{ width: 214px; margin-right: 19px; margin-bottom: 19px; }
+	.grid-4{ width: 155px; }
+	.grid-5{ width: 120px; }
+	.grid-6{ width: 100px; margin-right: 16px; margin-bottom: 16px; }
+	
+	#post .grid-1{ width: 450px }
+	#post .grid-2{ width: 215px }
+	#post .grid-3{ width: 138px; margin-right: 19px; margin-bottom: 19px }
+	#post .grid-4{ width: 99px; margin-right: 18px; margin-bottom: 18px }
+	#post .grid-5{ width: 74px }
+	#post .grid-6{ width: 65px; margin-right: 12px; margin-bottom: 12px }
+
+	/*main*/
+	#post{ width: 450px }
+	#sidebar{ width: 205px }
+	
+}
+
+/* Mobile (Portrait) = Design for a width of 280px
+================================================== */
+
+@media only screen and (max-width: 767px) {
+	
+	/*grid*/
+	.outerbox{ width: 280px; }
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, #post .grid-1, #post .grid-2, #post .grid-3, #post .grid-4, #post .grid-5, #post .grid-6{ width: 230px; }
+	
+	/*main*/
+	#post{ width: 100%; }
+	#sidebar{ width: 100%; }
+	
+	/*shortcodes*/
+	.one-half,
+	.one-third,
+	.one-fourth,
+	.one-fifth,
+	.one-sixth,
+	.one-two-third,
+	.one-three-fourths { width: 100%; margin: 0 0 25px; }
+	
+	.alert-red.alignright,
+	.alert-yellow.alignright,
+	.alert-green.alignright,
+	.alert-blue.alignright,
+	.alert-red.alignleft,
+	.alert-yellow.alignleft,
+	.alert-green.alignleft,
+	.alert-blue.alignleft { width: 100%; margin: 25px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+	
+	/*other*/
+	#error-page-title{ font-size: 80px; line-height: 80px; margin-bottom: 25px; }
+	#error-page-text{ margin-top: 0; }
+	
+	
+	/*comments*/
+	.children { margin: 30px 0 0; }
+	.children li.depth-2,
+	.children li.depth-3,
+	.children li.depth-4,
+	.children li.depth-5,
+	.children li.depth-6,
+	.children li.depth-7,
+	.children li.depth-8,
+	.children li.depth-9,
+	.children li.depth-10 { margin: 0 }
+       
+}
+
+
+/* Mobile (Landscape) = Design for a width of 440px
+================================================== */
+
+/* Note: Design for a width of 440px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	/*grid*/
+	.outerbox{ width: 440px; }
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, #post .grid-1, #post .grid-2, #post .grid-3, #post .grid-4, #post .grid-5, #post .grid-6{ width: 390px; }
+	
+}

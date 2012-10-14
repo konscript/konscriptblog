@@ -1,0 +1,115 @@
+/* General
+================================================== */
+img{ max-width: 100%; }
+
+/*hide responsive menus*/
+#top-bar .selector,
+#navigation .selector { display: none; }
+
+
+/* Apply To All Responsive Layouts
+================================================== */
+@media only screen and (max-width: 959px) {
+	
+	/*hide stuff*/
+	.flexslider-container .flex-caption{ display: none }
+	#related-posts .read-more{ display: none }
+	
+	/*navigation top menu*/
+	#navigation .selector option{ background:#f5f5f5; -webkit-appearance:none; padding: 10px; border-bottom: 1px solid #ddd }
+	#navigation .selector, 
+	#navigation .selector span{ cursor: pointer !important; -webkit-font-smoothing:antialiased }
+	#navigation .selector, 
+	#navigation .selector *{ margin:0; padding:0 }
+	#navigation .selector select{ top:0px; left:0px; height: 45px }
+	#navigation .selector{ width: 100%; color: #fff; font-weight: bold; line-height: 45px; text-indent: 20px }
+	#navigation .selector{ height: 51px; width: 60px; width: 100%; display:-moz-inline-box; display:inline-block; vertical-align:middle; zoom:1; *display:inline; cursor: pointer !important; position:relative; overflow:hidden; background: url("../images/responsive-drop-arrow.png") right center no-repeat }
+	#navigation .selector select:focus{outline:0; }
+	#navigation .selector span{ display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+	#navigation .selector select{ position:absolute; height:45px; background:none; width:100%; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:12px; font-weight:500; border:0 !important }
+
+		
+	/*display dropdown nav*/
+	#navigation .selector { display: inline-block; }
+	#navigation ul { display: none; }
+}
+
+
+
+/* #Tablet (Portrait) = Design for a width of 730px
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	/*blog*/
+	#author-bio{ width: 355px }
+	
+	/*search*/
+	.search-entry-text{ width: 310px; }
+
+}
+
+
+
+/* Mobile (Portrait) = Design for a width of 280px
+================================================== */
+
+@media only screen and (max-width: 767px) {
+
+	/*hide stuff*/
+	.flexslider-container .flex-caption,
+	#services-sidebar{ display: none }
+	#top-search input[type=search]{ display:none; }
+	
+	/*main*/
+	#post { width: 100% }
+	
+	/*header*/
+	#logo{ margin: 0 !important }
+	#logo img{ margin: 15px 0 }
+	
+	/*titles*/
+	#page-heading h1, #page-heading h2{ width: 100% }
+	#single-nav{ position: inherit; text-align: center; margin-top: 10px; margin-left: -7px }
+	
+	/*sidebar*/
+	#sidebar{ margin-top: 15px; padding-top: 25px; border-top: 4px solid #eee; }
+	
+	/*blog*/
+	#related-posts .alignleft{ max-width: 30% }
+	.related-entry-excerpt{ display: none }
+	#author-bio{ width: 135px  }
+	
+	/*search*/
+	.search-entry-text{ width: 100%; margin-top: 20px;  }
+	
+	/*footer*/
+	#footer-bottom, #footer-menu{ text-align: center }
+	#footer-menu{ margin-top: 5px }
+	
+	/*comments*/
+	.children { margin: 30px 0 0; }
+	.children li.depth-2,
+	.children li.depth-3,
+	.children li.depth-4,
+	.children li.depth-5,
+	.children li.depth-6,
+	.children li.depth-7,
+	.children li.depth-8,
+	.children li.depth-9,
+	.children li.depth-10 { margin: 0 }
+       
+}
+
+
+/* Mobile (Landscape) = Design for a width of 440px
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	/*blog*/
+	#author-bio{ width: 295px }
+	.related-entry-excerpt{ display: block }
+	
+	/*search*/
+	.search-entry-text{ width: 255px; margin-top: 0; }
+		
+}
