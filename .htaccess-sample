@@ -1,0 +1,14 @@
+SetEnv MYSQL_DB_NAME value
+SetEnv MYSQL_USERNAME value
+SetEnv MYSQL_PASSWORD value
+SetEnv MYSQL_DB_HOST value
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
+# BEGIN WordPress
+
+# END WordPress
